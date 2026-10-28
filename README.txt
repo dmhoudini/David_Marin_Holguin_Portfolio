@@ -1,15 +1,24 @@
-David Marin Portfolio — Updated Project Image Version
+GitHub Pages upload version — all files go directly in the repository root.
 
-Upload ALL files and the images folder to the root of your GitHub repository.
+Upload every file in this folder directly to your GitHub repository.
 
-Required root files:
+Your repository should show:
 - index.html
 - styles.css
 - headshot.jpg
 - David_Marin_Resume.pdf
-- images/ (entire folder)
+- senior_design_concept.jpeg
+- senior_design_prototype.jpeg
+- knee_worn.jpeg
+- knee_cad.jpeg
+- knee_closeup.png
+- comsol_external_fixator.png
+- ecg_rpeaks.png
+- ecg_respiratory_peaks.png
+- ecg_correlation.png
+- ecg_respiratory_waveform.png
+
+No images folder is required.
 
 GitHub Pages:
 Settings -> Pages -> Deploy from a branch -> main -> /(root)
-
-If replacing an older version, upload these files and choose to overwrite the existing files.
