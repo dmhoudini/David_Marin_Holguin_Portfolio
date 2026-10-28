@@ -19,7 +19,7 @@
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
-      <a class="button small" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      <a class="button small" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">Resumé</a>
     </div>
   </header>
 
@@ -32,7 +32,7 @@
           <p class="hero-lead">Biomedical Engineering student focused on translating clinical needs into practical medical device solutions through design, prototyping, simulation, verification, and data analysis.</p>
           <div class="hero-actions">
             <a class="button" href="#projects">View Projects</a>
-            <a class="button ghost" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+            <a class="button ghost" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">View Resumé</a>
           </div>
           <div class="quick-facts">
             <div><strong>B.S. Biomedical Engineering</strong><span>University of Kentucky</span></div>
@@ -69,6 +69,7 @@
               <div class="tags"><span>SolidWorks</span><span>V&V</span><span>Design Controls</span><span>Prior Art</span><span>Statistics</span><span>Medical Devices</span></div>
             </div>
           </article>
+
           <article class="timeline-item">
             <div class="timeline-meta">May 2025 – Jun 2025</div>
             <div class="timeline-body">
@@ -77,6 +78,7 @@
               <div class="tags"><span>Clinical Observation</span><span>FMEA</span><span>User Needs</span><span>Surgical Workflow</span></div>
             </div>
           </article>
+
           <article class="timeline-item">
             <div class="timeline-meta">Mar 2023 – Sep 2025</div>
             <div class="timeline-body">
@@ -108,15 +110,30 @@
     <section id="projects" class="section alt">
       <div class="container">
         <p class="eyebrow">Selected work</p><h2>Engineering projects</h2>
-        <p class="section-intro">Project image areas are intentionally left as placeholders so CAD screenshots, prototypes, test setups, and final results can be added as the work develops.</p>
+        <p class="section-intro">A selection of design, prototyping, physiological signal processing, and simulation work focused on medical-device development.</p>
+
         <div class="project-grid">
           <article class="project-card featured-project">
-            <div class="project-image placeholder"><span>Senior Design Project</span><small>Add orthotic prototype / layer stack / testing image</small></div>
+            <div class="project-media hero-media">
+              <img src="images/senior_design_prototype.jpeg" alt="Physical prototype of the adaptive pressure distribution orthotic insert" />
+            </div>
             <div class="project-content">
               <p class="project-kicker">Senior Design • Orthotics • Biomechanics • Sensing</p>
               <h3>Adaptive Pressure Distribution Orthotic Insert</h3>
               <p>Developing a low-profile modular orthotic platform for abnormal plantar loading using a unidirectional anisotropic carbon-fiber structural layer, pressure-relieving comfort materials, and replaceable sensing patches.</p>
               <p>The design process translates sponsor and clinician needs into engineering requirements, acceptance criteria, material selections, and verification strategies while balancing biomechanics, manufacturability, usability, safety, and patient compliance.</p>
+
+              <div class="project-gallery two">
+                <figure>
+                  <img src="images/senior_design_concept.jpeg" alt="Senior design concept sketch showing orthotic layers, pH sensing patch, carbon fiber layer, and off-loading modules" />
+                  <figcaption>Concept architecture and material-layer breakdown.</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/senior_design_prototype.jpeg" alt="Senior design physical orthotic prototype with pressure-relief modules" />
+                  <figcaption>Early physical prototype used to evaluate geometry and off-loading concepts.</figcaption>
+                </figure>
+              </div>
+
               <div class="project-detail-grid">
                 <div><strong>Clinical Need</strong><span>Improve plantar load management and reduce high-pressure regions during gait.</span></div>
                 <div><strong>Engineering Focus</strong><span>Structural support, pressure redistribution, materials, sensing, and low-profile integration.</span></div>
@@ -128,18 +145,60 @@
           </article>
 
           <article class="project-card">
-            <div class="project-image placeholder"><span>ECG Project</span><small>Add ECG signal / MATLAB plot / experimental setup</small></div>
-            <div class="project-content"><p class="project-kicker">Signals • MATLAB • Validation</p><h3>ECG-Derived Respiratory Rate</h3><p>Developed MATLAB processing to derive respiratory rate from 3-lead ECG R-peaks and compare estimates with a respiratory belt across multiple breathing conditions.</p><div class="tags"><span>MATLAB</span><span>ECG</span><span>Signal Processing</span><span>Validation</span></div></div>
+            <div class="project-media">
+              <img src="images/ecg_rpeaks.png" alt="ECG waveform with detected R-peaks from MATLAB analysis" />
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">Signals • MATLAB • Validation</p>
+              <h3>ECG-Derived Respiratory Rate</h3>
+              <p>Developed MATLAB processing to derive respiratory rate from 3-lead ECG R-peaks and compare estimates with a respiratory belt across baseline, slow-breathing, and post-exercise conditions.</p>
+              <div class="project-gallery two">
+                <figure>
+                  <img src="images/ecg_respiratory_peaks.png" alt="Detected respiratory peaks derived from ECG amplitude modulation" />
+                  <figcaption>Derived respiratory waveform with detected peaks.</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/ecg_correlation.png" alt="Correlation plot comparing belt-measured respiratory rate and ECG-derived respiratory rate" />
+                  <figcaption>Comparison of belt-measured RR and ECG-derived RR.</figcaption>
+                </figure>
+              </div>
+              <div class="tags"><span>MATLAB</span><span>ECG</span><span>Signal Processing</span><span>R-Peak Detection</span><span>Validation</span></div>
+            </div>
           </article>
 
           <article class="project-card">
-            <div class="project-image placeholder"><span>Knee Orthotic Project</span><small>Add CAD / prototype / user testing photo</small></div>
-            <div class="project-content"><p class="project-kicker">Wearable Device • CAD • Human Factors</p><h3>Knee Orthotic Redesign</h3><p>Designed and iterated a wearable knee orthotic focused on support, comfort, fit, usability, and passive recovery, including electrical muscle stimulation as a design feature.</p><div class="tags"><span>SolidWorks</span><span>Prototyping</span><span>EMS</span><span>User Feedback</span></div></div>
+            <div class="project-media">
+              <img src="images/knee_worn.jpeg" alt="Wearable knee orthotic prototype being worn during fit evaluation" />
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">Wearable Device • CAD • Human Factors</p>
+              <h3>Knee Orthotic Redesign</h3>
+              <p>Designed and iterated a wearable knee orthotic focused on support, comfort, fit, usability, and passive recovery, including electrical muscle stimulation as a design feature.</p>
+              <div class="project-gallery two">
+                <figure>
+                  <img src="images/knee_cad.jpeg" alt="SolidWorks CAD model of the knee orthotic sleeve" />
+                  <figcaption>SolidWorks concept model used during design development.</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/knee_closeup.png" alt="Close-up of the fabricated knee orthotic prototype" />
+                  <figcaption>Fabricated prototype showing integrated wearable features.</figcaption>
+                </figure>
+              </div>
+              <div class="tags"><span>SolidWorks</span><span>Prototyping</span><span>EMS</span><span>User Feedback</span><span>Human Factors</span></div>
+            </div>
           </article>
 
           <article class="project-card">
-            <div class="project-image placeholder"><span>COMSOL External Fixation</span><small>Add mesh / von Mises stress / displacement plot</small></div>
-            <div class="project-content"><p class="project-kicker">COMSOL • FEA • Orthopedic Biomechanics</p><h3>External Fixator Simulation</h3><p>Built a coupled solid-beam COMSOL model of a fractured femur with external fixation hardware to study displacement, fracture-gap mechanics, and stress concentrations around fixation points.</p><div class="tags"><span>COMSOL</span><span>FEA</span><span>Solid Mechanics</span><span>Beam Mechanics</span></div></div>
+            <div class="project-media">
+              <img src="images/comsol_external_fixator.png" alt="COMSOL external fixator simulation showing femur stress and deformation results" />
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">COMSOL • FEA • Orthopedic Biomechanics</p>
+              <h3>External Fixator Simulation</h3>
+              <p>Built a coupled solid-beam COMSOL model of a fractured femur with external fixation hardware to study displacement, fracture-gap mechanics, and stress concentrations around fixation points.</p>
+              <p class="project-note">The simulation combined stress and deformation visualization to evaluate how load was transferred through the femur and fixation system.</p>
+              <div class="tags"><span>COMSOL Multiphysics</span><span>FEA</span><span>Solid Mechanics</span><span>Beam Mechanics</span><span>Orthopedic Biomechanics</span></div>
+            </div>
           </article>
         </div>
       </div>
@@ -157,9 +216,17 @@
     </section>
 
     <section id="contact" class="section contact-section">
-      <div class="container contact-card"><div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p>I’m interested in full-time opportunities involving medical device R&D, design engineering, product development, verification, and human-centered biomedical engineering.</p></div><div class="contact-actions"><a class="button" href="mailto:djma267@uky.edu">djma267@uky.edu</a><a class="button ghost" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">View Résumé</a></div></div>
+      <div class="container contact-card">
+        <div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p>I’m interested in full-time opportunities involving medical device R&D, design engineering, product development, verification, and human-centered biomedical engineering.</p></div>
+        <div class="contact-actions">
+          <a class="button" href="mailto:djma267@uky.edu">djma267@uky.edu</a>
+          <a class="button ghost" href="David_Marin_Resume.pdf" target="_blank" rel="noopener">View Resumé</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/djmh27/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
     </section>
   </main>
+
   <footer><div class="container footer-wrap"><span>© 2026 David Marin</span><span>Biomedical Engineering Portfolio</span></div></footer>
 </body>
 </html>
